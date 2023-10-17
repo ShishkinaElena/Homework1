@@ -13,9 +13,9 @@ public class dz1 {
 
         System.out.printf("Input amount of product: "); //количество
         int num = scanner.nextInt();
-        System.out.printf("Your amount of product: %d \n", num); //  прибудет к вам в ближайшее время
+        System.out.printf("Your amount of product: %d \n", num);
         scanner.nextLine();
-
+        System.out.println("Прибудет к вам в ближайшее время"); //  прибудет к вам в ближайшее время
         System.out.printf("Input phone contact: "); // телефон пользователя
         long l1=scanner.nextLong();
         System.out.printf("Your phone contact:  %d \n", l1); // 5_555_555_5555L;
